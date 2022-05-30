@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  db:
+    container_name: spacex-db
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: spacex
+    ports:
+      - "5432:5432"
