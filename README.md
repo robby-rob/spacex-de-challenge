@@ -5,9 +5,9 @@ Create a script to call on SpaceX's open-source [launch API](https://github.com/
 Use it to pull data about SpaceX launches to answer the queries below (documentation on responses 
 here: https://docs.spacexdata.com)
 
-a. Which drone ships has received the most successful successive landings by falcon 9 booster?
+a. Which drone ships has received the most successful successive landings by falcon 9 booster? List landing drone ships in order from most successful successive landings to least. 
 
-b. List landing drone ships in order from most successful successive landings to least.
+b. Which payload nationality has been on the most launches? List nationalities and the count of launches that the nationality has been up on from most to least launches. 
 
 
 ## Plan
