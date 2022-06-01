@@ -92,6 +92,41 @@ b. Which payload nationality has been on the most launches? List nationalities a
             ```
         1. paste and execute each query in /source/sql
 
+## Query Results
+
+### Question a.
+| droneship_name             | successful_successive_landings |
+|----------------------------|--------------------------------|
+| Just Read The Instructions | 30                             |
+| Of Course I Still Love You | 20                             |
+| A Shortfall of Gravitas    | 13                             |
+
+
+### Question b.
+| nationality    | payload_launch_count |
+|----------------|----------------------|
+| United States  | 127                  |
+| Luxembourg     | 5                    |
+| Canada         | 4                    |
+| Hong Kong      | 4                    |
+| Israel         | 3                    |
+| Japan          | 3                    |
+| Argentina      | 2                    |
+| France         | 2                    |
+| Indonesia      | 2                    |
+| South Korea    | 2                    |
+| Spain          | 2                    |
+| Thailand       | 2                    |
+| Turkey         | 2                    |
+| Bangladesh     | 1                    |
+| Turkmenistan   | 1                    |
+| Taiwan         | 1                    |
+| United Kingdom | 1                    |
+| Bulgaria       | 1                    |
+| Malaysia       | 1                    |
+| Qatar          | 1                    |
+| Saudi Arabia   | 1                    |
+
 ## Cleanup
 1. Database:
     ```bash
